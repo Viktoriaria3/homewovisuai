@@ -1,0 +1,11 @@
+@mixin button($color, $background, $radius) {
+    color: $color;
+    background-color: $background;
+    border-radius: $radius;
+    padding: 15px 30px;
+    border-color: $background;
+    font-weight: bold;
+}
+.button {
+    @include button(blue, black, 10px);
+}

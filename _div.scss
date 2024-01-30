@@ -1,0 +1,10 @@
+%box {
+    color: #232323;
+    background-color: rgb(216, 213, 213);
+    border-radius: 15px;
+    border-color: #232323;
+    padding: 20px;
+}
+.box {
+    @extend %box;
+}
